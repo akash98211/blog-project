@@ -1,0 +1,514 @@
+*{
+padding: 0;
+box-sizing: border-box;
+}
+/* -------------------------------------------- */
+
+/* -------------------------------------------- */
+
+/* global Declaration*/
+span{
+    color: rgb(10, 0, 0);
+    font-size: 16px;
+}
+strong{
+    color: rgb(34, 187, 14);
+}
+hr{
+    width: 90%;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 40px;
+}
+.logo{
+    text-align: center;
+    margin: 10px;
+}
+.link{
+    font-weight: 400;
+    border-bottom: 2px solid rgb(161, 193, 202);
+    color: rgb(5, 172, 19);
+}
+.link:hover{
+    text-decoration: none !important;
+}
+
+.nav .nav-items{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.nav .nav-items .nav-link{
+    font-size: 17px;
+    font-family: cursive;
+    margin: 0 40px -30px 40px;
+}
+
+/* home component */
+
+.main{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.main .gallery{
+  position: relative;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-gap: 1vmin;
+    width: 90%;
+}
+.main .gallery .img{
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    height: 100%;
+    padding: .2rem;
+}
+.heading{
+    position: absolute;
+    color: aliceblue;
+    top: 50%;
+    left: 4%;
+}
+.heading2{
+    position: absolute;
+    color: rgb(239, 242, 245);
+    right: 16%;
+    top: 20%;
+    font-size: 1rem;
+}
+.heading3{
+    position: absolute;
+    color: rgb(239, 242, 245);
+    right: 16%;
+    top: 80%;
+    font-size: 1rem;
+}
+.main .gallery .img1{
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    padding: .2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Latest component-------------------------------------------- */
+.latest-title{
+    margin: auto;
+    width: 90%;
+}
+.latest-title h2{
+    color: rgb(51, 45, 45);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration:  rgb(206, 54, 54) underline;
+}
+.cards{
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+.card{
+    width: 21.25%;
+    /* margin:0px 100px 20px 0px; */
+    margin-right: 100px;
+    float: left;
+    margin-bottom: 70px;
+}
+.cards .card{
+    width: 300px;
+    min-height: 20%;
+}
+.cards .card-body .card-title{
+    font-size: 20px;
+}
+.cards .card-body .card-details{
+    font-size: 13px;
+}
+.cards .card-body .card-bottom{
+    color: grey;
+    font-size: 13px;
+}
+
+/* -------------------Side Content style------------- */
+.site-content-hr{
+    width: 50%;
+    margin-left: 10%;
+}
+.latest-article{
+    text-decoration: underline red;
+    width: 90%;
+   margin: auto;
+}
+.latest-article h2{
+    padding: 2rem;
+    margin-top: 100px;
+}
+.container .site-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.container .site-content .site-posts .p{
+    display: flex;
+    flex-direction: row;
+}
+.site-content .site-posts  img{
+    width: 100%;
+    height: 80%;
+}
+
+.site-content .site-details h3{
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: left;
+    color: rgb(15, 15, 24);
+}
+.site-content .site-details p{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    color: grey;
+    text-align: left;
+}
+
+.latest-img{
+    position: relative;
+    width: 90%;
+    height:540px;
+    margin: 100px 10px 10px 20px;
+}
+.latest-img h5{
+    position: absolute;
+    top: 10%;
+}
+.latest-img p{
+    position: absolute;
+}
+
+.container .sidebar-right .add{
+    padding: 2.5rem;
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+}
+.add h1{
+    margin-top: 70%;
+}
+.sidebar-right .top-posts h2{
+    margin-top: 40px;
+    text-decoration: underline red;
+}
+.sidebar-right .top-posts img{
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.sidebar-right .top-posts p{
+    color: grey;
+}
+.small-post{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.small-post .small-imgs{
+    height: 60%;
+}
+.small-post .details{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+/* -------------------Latest Story style----------------------------- */
+.story-title{
+    width: 90%;
+    margin: auto;
+    text-decoration: underline red;
+    margin-top: 10%;
+}
+.story{
+    margin-top: 40px;
+}
+.col .col-title{
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+.col .col-title h3{
+    color: rgb(6, 5, 90);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col .col-title .story-details{
+    text-align: justify;
+    color: grey;
+    font-size: 13px;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.more{
+    color: rgb(0, 17, 0);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.arrow{
+    color: rgb(240, 8, 8);
+}
+
+/* -----------x--------Latest Story style--------------x--------------- */
+
+
+/* ---------------------Technology component design --------------------------------------- */
+.tech .tech-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: 30% 50% 20%; */
+}
+.tech .tech-content .tech-clap{
+    width: 30%;
+    height: auto;
+    margin-top: 15%;
+}
+.tech .tech-clap .clap{
+    padding: 5rem 6rem 0rem 6rem;
+}
+.clap span{
+    padding: .7rem;
+    color: grey;
+    font-size: 13px;
+}
+.tech .tech-clap .share{
+   padding: 1rem 6rem 0rem 6rem;
+}
+.share span{
+    padding: .7rem;
+    color: grey;
+    font-size: 13px;
+}
+.tech-post .techpost-text{
+    margin: 30px 0px;
+    text-align: justify;
+    font-size: 15px;
+    color: grey;
+    font-family: lexend;
+}
+.tech .tech-content .tech-post{
+    width: 40%;
+    height: auto;
+}
+.tech .tech-content .tech-post img{
+    width: 100%;
+}
+.tech-post .user-info{
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tech-post .user-info .user-details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.user-info .user-name{
+    margin: 5px;
+}
+.user-name h6{
+    font-family: livvic;
+}
+.user-name span{
+    color:grey;
+    font-family: josefin;
+    font-size: 12px;
+}
+.user-info .icons{
+    margin: 30px 20px;
+}
+.icons a{
+    color: grey;
+}
+.user-info .user-details .user-name{
+    display: flex;
+    flex-direction:column;
+}
+.tech-post .tech-title .user-info .user-details .user{
+    width: 60px;
+    height:60px;
+    border-radius: 2rem;
+}
+/* shadow */
+.tech .tech-title .shadow{
+    margin: 20px 0px 20px 0px;
+}
+ .shadow img{
+    box-shadow: 0px 4px 15px 8px grey;
+}
+/* button style */
+.tech .tech-post .tech-title .btn-clap{
+    margin: 30px 0px;
+}
+.btn-clap .btn button{
+    margin: 20px 10px 0px 0px;
+    background-color: rgb(236, 230, 230);
+    padding: .3rem;
+    font-size: 15px;
+    font-family: abel;
+    border: 1px solid black;
+    border-radius: .2rem;
+}
+.tech .tech-post .btn-clap .clap-detail{
+    width: 8%;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+.btn-clap .clap-detail span{
+    font-size: 12px;
+    font-family: lexend;
+    color: grey;
+}
+/* ---------x------------Technology style ---------------x------------------------ */
+
+/* user info style component-------------------------- */
+.userInfo{
+    padding: 0rem;
+    margin: 0% 30%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.userInfo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 2rem;
+}
+.userInfo h6{
+    font-size: 15px;
+    margin: 10px 5px 0px 10px;
+    line-height: 10px;
+    
+}
+.userInfo span{
+    font-size: 10px;
+    font-family: josefin;
+    margin-left: 10px;
+}
+
+
+/* user info style component-----------end--------------- */
+
+/* ------------------Tech Card component---------- */
+.tech-bott{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-color:rgb(241, 239, 239);
+}
+.tech-bott .tech-bott-details{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.tech-bott .tech-bott-details .title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: livvic;
+}
+.tech-bott-details .tech-bott-header{
+   margin-top:50px;
+}
+.card{
+    width: 25%;
+}
+.tech-bott .tech-bott-details .tech-bott-img .img{
+    width: 100%;
+    height: 50%;
+}
+.tech-bott .tech-bott-details .bott-title{
+    margin: 20px 0px 5px 10px;
+}
+.bott-details{
+    display: flex;
+    flex-direction: row;
+}
+.bott-details .info{
+    margin: 20px 10px 20px 20px;
+    line-height: 0px;
+}
+.info h6{
+    font-size: 15px;
+    color: blue;
+}
+.info p{
+    color: grey;
+    font-size: 10px;
+}
+.tech-bott .tech-bott-details .bott-details img{
+    margin: 20px 0px 20px 20px;
+    width: 15%;
+    border-radius: 3rem;
+}
+
+/* ------------------Tech Card component---------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of side content style--------------------------- */
+
+
+/* media query  */
+@media only screen and (max-width:768px)
+{
+    .header{
+       flex-direction: row;
+    }
+    .nav .nav-items{
+        flex-direction: column;
+        justify-content: center;
+    }
+     .img{
+        width: 100%;
+    }
+    
+
+} 
+
+
